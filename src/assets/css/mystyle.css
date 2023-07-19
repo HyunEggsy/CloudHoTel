@@ -1,0 +1,802 @@
+/* 캐러셀 */
+
+
+
+.slidercontents {
+  height: 100vh;
+  background-image: url(../images/fpool1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.slidercontents2 {
+  height: 100vh;
+  background-image: url(../images/fpool2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.slidercontents3 {
+  height: 100vh;
+  background-image: url(../images/fpool3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.slidercontents4 {
+  height: 100vh;
+  background-image: url(../images/fitness1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.slidercontents5 {
+  height: 100vh;
+  background-image: url(../images/fitness2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.slidercontents6 {
+  height: 100vh;
+  background-image: url(../images/fitness3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.slidercontents7 {
+  height: 100vh;
+  background-image: url(../images/sauna1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.slidercontents8 {
+  height: 100vh;
+  background-image: url(../images/sauna2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.slidercontents9 {
+  height: 100vh;
+  background-image: url(../images/sauna3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.slidercontents10 {
+  height: 100vh;
+  background-image: url(../images/spa1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.slidercontents11 {
+  height: 100vh;
+  background-image: url(../images/spa2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.slidercontents12 {
+  height: 100vh;
+  background-image: url(../images/spa3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.slidercontents13 {
+  height: 100vh;
+  background-image: url(../images/pool.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.slidercontents14 {
+  height: 100vh;
+  background-image: url(../images/pool2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.slidercontents15 {
+  height: 100vh;
+  background-image: url(../images/pool3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.slidercontents16 {
+  height: 100vh;
+  background-image: url(../images/kid.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.slidercontents17 {
+  height: 100vh;
+  background-image: url(../images/kid1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  
+  align-items: center;
+}
+
+.slidercontents18 {
+  height: 100vh;
+  background-image: url(../images/kid2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.slidercontents19 {
+  height: 100vh;
+  background-image: url(../images/kid3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.slidercontents20 {
+  height:100vh;
+  background-image: url(../images/kid4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.wrapText {
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  top: 40%;
+  margin-top: -80px;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+.wratTitle {
+  font-family: "Agatho";
+  font-size: 105px;
+  font-weight: 400;
+  line-height: 145px;
+}
+
+
+
+.wrapText h1 {
+  color: white !important;
+}
+
+/* 캐러셀 끝 */
+
+
+
+
+
+
+
+/* amenities css 시작 */
+
+
+
+.amenities_title{
+  /* background-color: red; */
+  box-sizing: border-box;
+  /* padding-top: 8%; */
+  padding-top: 10%;
+  display: block;
+  text-align: center;
+}
+
+.amenities_tname{
+  /* background-color: aqua; */
+  color: #fff;
+  font-size: 60px;
+  font-family: 'Playfair Display SC', serif;
+}
+
+.amenities_text{
+  /* background-color: blueviolet; */
+  color: #fff;
+  font-size: 20px;
+  margin: 20px 0 70px;
+
+}
+
+#amenities img {
+  height: 100px;
+  width: 100%;
+}
+
+.ambox {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%)  ;
+}
+
+.ambox2 {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%) ;
+}
+
+#amenities {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline-style: none;
+  box-sizing: border-box;
+}
+
+#amenities_page {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/fpool3.jpg");
+  background-size: cover;
+}
+
+.hidden-portfolio {
+  opacity: 0.4;
+  width: 100%;
+
+  /* 투명도 0과 1사이 */
+}
+
+.single-portfolio {
+
+  opacity: 0;
+  z-index: 1;
+
+  /* 투명도 0과 1사이 */
+}
+.single-portfolio:hover {
+  /* 투명도 0과 1사이 */
+  opacity: 0.8;
+}
+
+/* p {
+  display: none;
+} */
+/* amenities css 끝 */
+
+
+
+
+
+
+/* amenities 상세페이지css 시작 */
+
+
+.carousel_wrap{
+
+  z-index: -1;
+}
+
+#viewContents {
+  /* 절대 좌표 설정 */
+
+  position: absolute;
+  /* 2nd 화면 부터 보이게 함 */
+  top:100%;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgb(256,256,256);
+      padding: 20px;
+      z-index: 1;
+  padding-left: 10%;
+  padding-right: 15%;
+}
+
+.info_list li {
+  list-style: disc;
+}
+
+.info_list ol,ul,li {
+  list-style: none;
+}
+
+.cont_wrap {
+  text-align: left;
+  min-width: 320px;
+  max-width: 100%;
+}
+
+.info_tit {
+  font-family: "Pretendard";
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 45px;
+  /* padding-bottom: 15px; */
+  padding-bottom: 5px;
+  margin-top: 70px;
+  letter-spacing: -0.6px;
+  color: #222222;
+}
+
+.weekday {
+  width: 600px;
+  border-left: none;
+  border-right: 1px solid #d5d5d5;
+
+  /* background-color: orange; */
+}
+
+.time {
+  width: 600px;
+  font-size: 17px;
+  font-weight: 400;
+  border-right: none;
+}
+
+.table_box table tr:first-child td {
+  border-top: 1px solid #222222;
+}
+
+.table_box table tr:last-child td {
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.table_box table tr td {
+  height: 80px;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #d5d5d5;
+  color: #585858;
+}
+
+.tabelCaption li {
+  text-align: left;
+}
+
+.infoli {
+  padding: 40px 0px;
+}
+
+tr {
+  font-size: 17px;
+}
+
+.title_box {
+  font-family: "Pretendard";
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0;
+  color: #222222;
+}
+
+/* amenities 상세페이지css 끝 */
+
+
+
+
+
+
+
+/* lightslider 시작 */
+.hotel_lightslider{
+  width: 1000px;
+  margin: auto;
+}
+
+
+
+
+#lightSlider img {
+  width: 100%;
+    height: 550px;
+}
+
+.light_button{
+  padding: 3%;
+  height: 3%;
+  font-size: 2.5rem;
+  text-align: center;
+  
+}
+
+.notice_button{
+  margin-right: 3%;
+  width: 13%;
+  
+}
+
+.location_button{
+  width: 13%;
+}
+
+
+.hotel_main_img{
+  position: relative;
+  padding-bottom: 3%;
+  /* margin-top: -100px !important; */
+}
+
+.hotel_main_img img{
+  height: 100vh;
+  width: 100%;
+}
+
+
+.hotel_main_txt {
+  position: absolute;
+  padding: 10%;
+  margin: 10%;
+  top: 70%;
+  left: 45%;
+  text-align: left;
+  transform: translate(-50%, -50%);
+  width:110vw;
+  height: 90vh;
+  font-size: 110%;
+  color: #ffffff;
+}
+
+.hotel_main_txt span{
+  font-size: 150%;
+}
+
+/* lightslider 끝 */
+
+
+
+
+
+/* notice 시작 */
+
+.notice_title{
+  color: black !important;
+  font-size: 60px;
+}
+
+.notice_content{
+  font-size: 20px;
+}
+
+.notice_top {
+  /* display: table-cell; */
+  padding: 97px 0 90px;
+  text-align: center;
+}
+
+.notice_inner{
+  text-align: center;
+
+}
+
+/* notice 끝 */
+
+
+
+/* notice 상세 시작 */
+.ndata1 .txtBox {
+  margin-top: 37px;
+  font-size: 18px;
+  text-align: left;
+  padding: 60px 0;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+}
+
+.txtBox h2 {
+  font-weight: bold;
+}
+
+.txtBox h3 {
+  font-weight: bold;
+}
+
+.ndata1_inner {
+  position: relative;
+  /* width: 1500px; */
+  width: 50vw;
+  margin: 0 auto;
+  padding-bottom: 180px;
+}
+
+.ndata1_tit {
+  font-size: 50px;
+  padding-top: 5%;
+}
+/* notice 상세 끝 */
+
+
+
+
+
+
+
+
+/* my page 시작 */
+.myPapeContainer{
+  position: relative;
+  /* padding-bottom: 20%; */
+  padding: 1%;
+  font-family: 'Playfair Display SC', serif;
+}
+
+.myPageTop{
+  width: 100%;
+  padding-bottom: 2%;
+}
+
+.myPageBTit{
+  font-size: 50px;
+  padding: 1%;
+  text-align: center;
+}
+
+.myPageTit{
+  border-bottom: 1px solid #222222;
+  font-size: 30px;
+  text-align: center;
+}
+
+.myPageList{
+  position: absolute;
+  border: 1px solid #ccc;
+  width: 15vw;
+  top: 110%;
+  left: 3%;
+  text-align: center;
+}
+
+.myReserveList_No{
+  padding-top: 15%;
+  text-align: center;
+  font-size: large;
+}
+
+.myName {
+  border-bottom: 1px solid #585858;
+}
+
+
+.myName p{
+  font-size: 30px;
+}
+
+.myListDetail{
+  padding-top: 10%;
+}
+
+
+/* my page 끝 */
+
+
+
+
+/* my page list 시작 */
+
+.myReserveList{
+  position: absolute;
+  top: 110%;
+  left: 23%;
+  padding-bottom: 20%;
+  width: 75vw;
+
+
+}
+
+.myReserveItem{
+  border: 1px solid #ccc;
+  padding: 50px 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3%;
+  
+}
+
+.myReserveInfo{
+  /* padding-top: 10%; */
+  padding-left: 10%;
+  display: inline-block;
+}
+
+.myReserveDay{
+  font-size: 43px;
+  padding-bottom: 5%;
+}
+
+
+.myReserveContents span {
+  font-size: 30px;
+  padding-right: 5px;
+  
+}
+
+.myReserveContents p {
+  font-size: 25px;
+  text-align: right;
+  
+}
+
+.myPageHotelName{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+
+/* my page list 끝 */
+
+
+
+
+/* my page editmembership 시작 */
+
+#edit_container{
+
+  position: absolute;
+  top: 110%;
+  left: 23%;
+  padding-bottom: 20%;
+  width: 75vw;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+
+legend{
+  /* em : 비율(기본 : 16px==1em )*/
+  /* font-size: 1.2em; */
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+fieldset{
+
+  border: 1px solid lightgray;
+  /* padding(안쪽여백): 상(위) 우(오른쪽) 하(아랫) 좌(왼쪽) */
+  padding: 30px 20px 30px 30px;
+  /* 아래족 바깥 여백 */
+  margin-bottom: 35px;
+}
+
+
+/* 라벨 디자인 */
+
+.edit_field{
+  /* 가로배치 */
+  display: inline-block;
+  /* 가로크기 */
+  width: 60px;
+  /* 굵은 글씨 */
+  font-weight: bold;
+  /* 글자 크기 : 0.9배 */
+  font-size: 0.9em;
+  /* 글자 오른쪽 정렬 */
+  text-align: right;
+  /* 오른쪽 바깥 여백 */
+  margin-right: 15px;
+
+}
+
+
+/* 입력양식 디자인 */
+.edit_input-box{
+
+  /* 가로배치 */
+  display: inline-block;
+  /* 가로크기 */
+  width: 350px;
+  /* 세로크기 */
+  height: 50px;
+  /* 안쪽여백 */
+  padding: 15px;
+  /* margin : 상하 왼쪽오른쪽 */
+  margin: 15px 0;
+}
+
+
+/* 버튼 디자인 */
+#edit_buttons button{
+  /* 버튼의 가로크기 */
+  width: 250px;
+  /* 버튼의 세로크기 */
+  height: 50px;
+  /* 오른쪽 바깥여백 */
+  margin-right: 10px;
+  margin-top: 10%;
+  /* 글자크기 em(비율) */
+  font-size: 0.9em;
+  /* 외각선 */
+  /* border: 1px solid white; */
+
+}
+
+/* 버튼 가로배치 */
+#edit_buttons > li{
+  /* 세로 -> 가로 배치 */
+  display: inline-block;
+}
+/* my page editmembership 끝 */

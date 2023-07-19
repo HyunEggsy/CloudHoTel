@@ -1,0 +1,191 @@
+/* 메인메뉴 시작 */
+.dining {
+  margin: 0;
+  padding: 0;
+}
+
+.diningtitle {
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.diningtitle > h2 {
+  margin-top: 50px;
+}
+
+.title1 {
+  text-align: center;
+}
+
+.content-text {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+
+.but {
+  display: block;
+}
+
+.btn5 {
+  display: inline-block;
+  margin-left: 46%;
+  margin-top: 10px;
+  margin-bottom: 10vh;
+  /* position: absolute; */
+  /* left: 50%;
+  top: 60%; */
+  /* transform: translateX(-50%) translateY(80%); */
+  text-align: center;
+}
+
+.btn4 {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.owl-carousel {
+  height: 100% ;
+  width: 100% ;
+}
+
+.item{
+  height: 100vh;
+  width: 90vw;
+  /* background-size: cover; */
+  margin-left: 5%;
+}
+
+/* korea 이미지 */
+
+.korea1 {
+  background-image: url("../images/dining/korea/korea1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.korea2 {
+  background-image: url("../images/dining/korea/korea2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.korea3 {
+  background-image: url("../images/dining/korea/korea3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.korea4 {
+  background-image: url("../images/dining/korea/korea4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.korea5 {
+  background-image: url("../images/dining/korea/korea5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.japanese1 {
+  background-image: url("../images/dining/japanese/japanese1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.japanese2 {
+  background-image: url("../images/dining/japanese/japanese2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.japanese3 {
+  background-image: url("../images/dining/japanese/japanese3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.japanese4 {
+  background-image: url("../images/dining/japanese/japanese4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.japanese5 {
+  background-image: url("../images/dining/japanese/japanese5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.western1 {
+  background-image: url("../images/dining/western/western1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.western2 {
+  background-image: url("../images/dining/western/western2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.western3 {
+  background-image: url("../images/dining/western/western3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.western4 {
+  background-image: url("../images/dining/western/western4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.western5 {
+  background-image: url("../images/dining/western/western5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.loungebar1 {
+  background-image: url("../images/dining/loungebar/loungebar1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.loungebar2 {
+  background-image: url("../images/dining/loungebar/loungebar2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.loungebar3 {
+  background-image: url("../images/dining/loungebar/loungebar3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.loungebar4 {
+  background-image: url("../images/dining/loungebar/loungebar4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.loungebar5 {
+  background-image: url("../images/dining/loungebar/loungebar5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cafe1 {
+  background-image: url("../images/dining/cafe/cafe1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cafe2 {
+  background-image: url("../images/dining/cafe/cafe2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cafe3 {
+  background-image: url("../images/dining/cafe/cafe3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cafe4 {
+  background-image: url("../images/dining/cafe/cafe4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cafe5 {
+  background-image: url("../images/dining/cafe/cafe5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

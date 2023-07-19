@@ -1,0 +1,63 @@
+/* //TODO: 제작CSS */
+
+#myback3 {
+    background-image: url('../images/DetailImages/break_main.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    height: 700px;
+}
+
+.detail-maintext3 {
+    font-size: 28px;
+    font-weight: 500;
+    font-family: Swiss721-BT-Regular,Helvetica,Arial,sans-serif;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.p_breakfast {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#breakfast1 {
+    width: 1000px;
+    margin-bottom: 150px;
+}
+
+#breakfast2 {
+    width: 1200px;
+    height: auto;
+    float: right;
+    margin-bottom: 150px;
+}
+
+#breakfast3 {
+    width: 1000px;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.breakfast_text_r {
+    float: right;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Swiss721-BT-Regular,Helvetica,Arial,sans-serif;
+    width: 700px;
+    margin-top: 220px;
+}
+
+.breakfast_text_l {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Swiss721-BT-Regular,Helvetica,Arial,sans-serif;
+    width: 700px;
+    margin-left: 70px;
+    padding-top: 250px;
+}
+
+
+
+
+

@@ -1,0 +1,115 @@
+/* //TODO: 제작CSS */
+
+#myback6 {
+    background-image: url('../images/DetailImages/pet_main.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+/* TODO: 07/03 수정 */
+
+.detail-main6{
+    background: linear-gradient(rgb(233, 204, 204), rgb(181, 181, 197));
+}
+
+.pet_main {
+    text-align: center;
+}
+
+.pet_text {
+    font-size: 27px;
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 70px;
+}
+
+.pet_img {
+   width: 1280px;
+}
+
+.dog-fix {
+float: left;
+width: 200px;
+height: 200px;
+margin-left: 20px;
+position: fixed;
+top: 50%;
+}
+
+.dog-fix2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 8px solid white;
+    position: relative;
+}
+
+.touch_dog {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 8px solid white;
+    position: absolute;
+    display: none;
+    transform: scale(1.2);
+}
+
+.dog-fix2:hover+.touch_dog {
+    display: block;
+}
+
+.p_touch {
+    margin-left: 55px;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: rgb(221, 141, 208);
+}
+
+.cat-fix {
+width: 200px;
+height: 200px;
+margin-right: 20px;
+position: fixed;
+right: 0px;
+top: 50%;
+}
+
+.cat-fix2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 8px solid white;
+    position: relative;
+}
+
+.touch_cat {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 8px solid white;
+    position: absolute;
+    display: none;
+    transform: scale(1.2);
+}
+
+.cat-fix2:hover+.touch_cat {
+    display: block;
+}
+
+.p_touch2 {
+    margin-left: 60px;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: rgb(161, 79, 228);
+}
+
+/* 수정끝 */

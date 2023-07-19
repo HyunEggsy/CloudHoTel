@@ -1,0 +1,578 @@
+/* //TODO: 제작CSS */
+
+.p_myback {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    height: 700px;
+}
+
+
+.p_main {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+.p_menu {
+    /* background: rgba(241, 233, 233, 0.7); */
+    border: 1px solid #f1dc9d;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    padding-top: 45px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 5px;
+}
+
+.p_check2 {
+  color: #c2bc85;
+  line-height: 24px;
+  font-family: 'CircularStd', 'Noto Sans KR', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.p_calendar {
+  border: none;
+  height: 40px;
+  width: 200px;
+  margin-top: 15px;
+}
+
+.p_main-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    color:#fff;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+#p_main-text1 {
+    color: aliceblue;
+    font-size: 80px;
+    font-weight: 530;
+}
+
+.p_check {
+  margin-left: 60px;
+  flex-direction: column;
+}
+
+#p_searchbox {
+    height: 47px;
+    width: 400px;
+    border: none;
+    border-bottom: 2px solid #e2e191;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: 15px;
+}
+
+
+
+#p_button:hover {
+  background-color: rgb(221, 220, 153);
+  color: #ffffff;
+}
+
+#p_button {
+  height: 47px;
+  text-align: left;
+  padding: 5px 8px 5px 8px;
+  transition: all .4s;
+  border: 1px solid #fff;
+  text-align: center;
+  width: 130px;
+  color:darkgray;
+  margin-top: 20px;
+}
+
+.package-main {
+    width: 1570px;
+    display: flex;
+    justify-content: space-between;
+    /* 크기 초과시 줄바꿈기능 */
+    flex-wrap: wrap;  
+}
+
+.p_image{
+    width: 440px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.font1 {
+    width: 440px;
+    font-size: 16px;
+    margin: 17px 0 29px;
+    font-family: 'Pretendard';
+    line-height: 28px;
+    font-weight: 520;
+
+}
+
+.text2 {
+    font-family: 'Agatho';
+    font-size: 33px;
+    font-weight: 550;
+    letter-spacing: -0.2px;
+    height: 200px;
+}
+
+.package1, .package2, .package3, .package4, .package5, .package6 {
+    margin-right: 40px;
+    padding-bottom: 100px;
+    color: #242424;
+
+}
+
+.tag-box {
+    display: flex;
+    margin: 10px 0 25px;
+    font-family: 'Pretendard';
+    color: rgba(68, 71, 68, 0.533);
+}
+
+#p_number {
+    font-weight: 400;
+    font-family: 'Montserrat';
+    font-size: 28px; 
+    margin-left: 10px;
+}
+
+#keyword-box {
+    background: #f8f8f7;
+    border-top: 1px solid #D5D5D5;
+    width: 100%;
+    margin-bottom: 75px;
+    margin-top: 30px;
+    height: 120px;
+    font-size: 20px;
+}
+
+.keyword {
+    font-family: 'Pretendard';
+    font-weight: 540;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.tag-list {
+    list-style: none;
+}
+
+.tag-tab {
+    display: inline-block;
+    border: 1px solid #AFAFAF;
+    font-size: 15px;
+    font-family: 'Pretendard';
+    font-weight: 400;
+    padding: 3px 15px 3px 15px;
+    margin-right: 15px;
+}
+
+#tag-all:hover {
+  background-color:#c5d0d8;
+}
+
+.tag-tab:hover {
+   background-color:#c5d0d8;
+}
+
+.tag-tab:checked {
+    background: #57768d;
+}
+
+#tag-all:checked {
+  background: #57768d;
+}
+
+#tag-all {
+    display: inline-block;
+    border: 1px solid #AFAFAF;
+    font-size: 15px;
+    font-family: 'Pretendard';
+    font-weight: 400;
+    padding: 3px 10px 3px 10px;
+    margin-right: 15px;
+}
+
+#recommend {
+    display: none;
+}
+
+.price_heart {
+    display: flex;
+}
+
+.heartbox_1 {
+    margin-left: 212px;
+    height: 60px;
+    width: 60px;
+    border: 1px solid #ccc;;
+  }
+
+[id="heart_1"] {
+    display: none;
+  }
+  
+  [for="heart_1"] {
+    color: #aab8c2;
+    cursor: pointer;
+    font-size: 40px;
+    margin-left: 8px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  [for="heart_1"]:hover {
+    color: grey;
+  }
+  
+  [for="heart_1"]::selection {
+    color: none;
+    background: transparent;
+  }
+  
+  [for="heart_1"]::moz-selection {
+    color: none;
+    background: transparent;
+  }
+  
+  [id="heart_1"]:checked + label {
+    color: #e2264d;
+    will-change: font-size;
+    animation: heart 1s cubic-bezier(.17, .89, .32, 1.49);
+  }
+
+
+  .heartbox_2 {
+    margin-left: 212px;
+    height: 60px;
+    width: 60px;
+    border: 1px solid #ccc;;
+  }
+
+  [id="heart_2"] {
+    display: none;
+  }
+  
+  [for="heart_2"] {
+    color: #aab8c2;
+    cursor: pointer;
+    font-size: 40px;
+    margin-left: 8px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  [for="heart_2"]:hover {
+    color: grey;
+  }
+  
+  [for="heart_2"]::selection {
+    color: none;
+    background: transparent;
+  }
+  
+  [for="heart_2"]::moz-selection {
+    color: none;
+    background: transparent;
+  }
+  
+  [id="heart_2"]:checked + label {
+    color: #e2264d;
+    will-change: font-size;
+    animation: heart 1s cubic-bezier(.17, .89, .32, 1.49);
+  }
+
+  .heartbox_3 {
+    margin-left: 212px;
+    height: 60px;
+    width: 60px;
+    border: 1px solid #ccc;;
+  }
+
+  [id="heart_3"] {
+    display: none;
+  }
+  
+  [for="heart_3"] {
+    color: #aab8c2;
+    cursor: pointer;
+    font-size: 40px;
+    margin-left: 8px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  [for="heart_3"]:hover {
+    color: grey;
+  }
+  
+  [for="heart_3"]::selection {
+    color: none;
+    background: transparent;
+  }
+  
+  [for="heart_3"]::moz-selection {
+    color: none;
+    background: transparent;
+  }
+  
+  [id="heart_3"]:checked + label {
+    color: #e2264d;
+    will-change: font-size;
+    animation: heart 1s cubic-bezier(.17, .89, .32, 1.49);
+  }
+
+  .heartbox_4 {
+    margin-left: 212px;
+    height: 60px;
+    width: 60px;
+    border: 1px solid #ccc;;
+  }
+
+  [id="heart_4"] {
+    display: none;
+  }
+  
+  [for="heart_4"] {
+    color: #aab8c2;
+    cursor: pointer;
+    font-size: 40px;
+    margin-left: 8px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  [for="heart_4"]:hover {
+    color: grey;
+  }
+  
+  [for="heart_4"]::selection {
+    color: none;
+    background: transparent;
+  }
+  
+  [for="heart_4"]::moz-selection {
+    color: none;
+    background: transparent;
+  }
+  
+  [id="heart_4"]:checked + label {
+    color: #e2264d;
+    will-change: font-size;
+    animation: heart 1s cubic-bezier(.17, .89, .32, 1.49);
+  }
+
+  .heartbox_5 {
+    margin-left: 212px;
+    height: 60px;
+    width: 60px;
+    border: 1px solid #ccc;;
+  }
+
+  [id="heart_5"] {
+    display: none;
+  }
+  
+  [for="heart_5"] {
+    color: #aab8c2;
+    cursor: pointer;
+    font-size: 40px;
+    margin-left: 8px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  [for="heart_5"]:hover {
+    color: grey;
+  }
+  
+  [for="heart_5"]::selection {
+    color: none;
+    background: transparent;
+  }
+  
+  [for="heart_5"]::moz-selection {
+    color: none;
+    background: transparent;
+  }
+  
+  [id="heart_5"]:checked + label {
+    color: #e2264d;
+    will-change: font-size;
+    animation: heart 1s cubic-bezier(.17, .89, .32, 1.49);
+  }
+
+  .heartbox_6 {
+    margin-left: 212px;
+    height: 60px;
+    width: 60px;
+    border: 1px solid #ccc;;
+  }
+
+  [id="heart_6"] {
+    display: none;
+  }
+  
+  [for="heart_6"] {
+    color: #aab8c2;
+    cursor: pointer;
+    font-size: 40px;
+    margin-left: 8px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  [for="heart_6"]:hover {
+    color: grey;
+  }
+  
+  [for="heart_6"]::selection {
+    color: none;
+    background: transparent;
+  }
+  
+  [for="heart_6"]::moz-selection {
+    color: none;
+    background: transparent;
+  }
+  
+  [id="heart_6"]:checked + label {
+    color: #e2264d;
+    will-change: font-size;
+    animation: heart 1s cubic-bezier(.17, .89, .32, 1.49);
+  }
+
+  /* TODO:예약시작 */
+
+.p_reserve_all {
+  margin-left: 300px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  position: relative;
+}
+
+#p_reserve {
+   font-size: 40px;
+   margin: 40px;
+   font-weight: 500;
+   color: #7faacc;
+}
+
+.Year-Month {
+  border: none;
+  margin-top: 12px;
+  width: 150px;
+  text-align: center;
+  color: #7ca5c5;
+  background-color:transparent;
+  font-size: 21px;
+  font-weight: 500;
+  border-bottom: 2px solid #e2e1a1;
+}
+
+.p_search {
+   display: flex;
+   border: 1px solid #e7e55c;
+   padding: 20px 80px;
+   width: 1300px;
+   text-align: center;
+   justify-content: space-between;
+   margin-top: 20px;
+   color: #bdbe61;
+   line-height: 24px;
+   font-family: 'CircularStd', 'Noto Sans KR', sans-serif;
+   font-weight: 600;
+   font-size: 18px;
+}
+
+
+.p_search_button {
+   text-align: center;
+   height: 50px;
+   width: 130px;
+   margin-top: 18px;
+   border: 1px solid #e7e55c;
+   cursor: pointer;
+   color: #b8b978;
+}
+
+.p_search_button:hover {
+   background-color: rgb(212, 212, 200);
+   color: #ffffff;
+}
+
+.p_All_room {
+   margin-top: 80px;
+   margin-left: 120px;
+   list-style-type: none;
+}
+
+.p_room {
+   border-bottom: 1px solid #858282;
+   width: 1040px;
+   height: 380px;
+   padding: 40px 20px 40px;
+}
+
+.p_room_img_name {
+   display: flex;
+}
+
+.p_room_img {
+   opacity: 1.0;
+   width: 400px;
+}
+
+.p_room_name_price {
+   margin-left: 40px;
+   margin-top: 30px;
+}
+.p_room_name {
+   font-size: 36px;
+   line-height: 44px;
+   color: #101010;
+   font-weight: 600;
+   font-family: 'Noto Sans KR', sans-serif;
+   margin-bottom: 20px;
+}
+
+.p_room_price {
+   font-size: 20px;
+   font-weight: 400;
+}
+
+#p_roomType {
+  width: 200px;
+  margin-top: 6px;
+}
+
+#room_pricenumber {
+   font-size: 30px;
+   font-weight: 450;
+   margin-left: 5px;
+   color: #aa9a6c;
+}
+
+#p_reserve_button {
+   border: 1px solid #cece92;
+   color: #b5b81b;
+   width: 130px;
+   text-align: center;
+   cursor: pointer;
+   font-family: 'Sorts Mill Goudy', 'Noto Sans KR', sans-serif;
+   font-size: 20px;
+   float: right;
+   height: 50px;
+   font-weight: 500;
+   background-color: #f0f3f5;
+}
+
+#p_reserve_button:hover {
+  background-color: #ccccbf;
+  color: rgb(243, 243, 240);
+}
+/* 예약끝 */

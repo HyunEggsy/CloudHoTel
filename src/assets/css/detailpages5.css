@@ -1,0 +1,36 @@
+/* //TODO: 제작CSS */
+
+#myback5 {
+    background-image: url('../images/DetailImages/partroom_main.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    height: 700px;
+}
+
+.partvideo {
+    background-size: none;
+}
+
+#partymain {
+    justify-content: center; 
+    margin-left: 150px;
+}
+
+.partyimg {
+    display: flex;
+    height: 900px;
+    margin-bottom: 150px;
+}
+
+.partyimg1 {
+    margin-left: 170px;
+}
+
+.partyimg2 {
+    width: 800px;
+    height: 600px;
+    margin-left: 100px;
+    margin-top: 150px;
+}
